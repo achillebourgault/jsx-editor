@@ -6,6 +6,7 @@ import style from './EditSidebar.module.css'
 import globalWidgets from "../../../widgets/globalWidgets";
 import prefabsWidgets from "../../../widgets/prefabsWidgets";
 import personalWidgets from "../../../widgets/personalWidgets";
+import {Draggable} from "react-drag-and-drop";
 
 const WidgetsListType = {
     Global: globalWidgets,
@@ -18,10 +19,10 @@ const WidgetTile = (props) => {
     const icon = props.icon;
 
     return (
-        <div className={style.element} draggable={true}>
+        <Draggable type="widget" data={name} className={style.element}>
             <p>{name}</p>
             <span>{icon}</span>
-        </div>
+        </Draggable>
     )
 }
 

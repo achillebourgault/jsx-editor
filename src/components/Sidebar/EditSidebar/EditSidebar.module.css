@@ -68,7 +68,7 @@
     height: 80%;
 }
 
-.EditSidebarWidgetsList > .element {
+.EditSidebarWidgetsList .element {
     width: 30%;
     height: 58px;
     display: flex;
