@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+}
+
+.editor {
+    overflow-y: scroll;
+    width: calc(100vw - 300px);
+}
+
+.createElementSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 90%;
+    max-width: 800px;
+    background: #bbbbbb;
+    margin: 26px auto 0;
+    border: dashed 4px #7e7e7e;
+}
+
+.createElementSection > span {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.createElementSection > span > a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    color: white;
+    font-weight: bolder;
+    background: #266dbb;
+}
