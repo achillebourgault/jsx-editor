@@ -1,0 +1,78 @@
+.EditSidebar {
+    background: #1d1d1d;
+    width: 300px;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.ESidebarHeader {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ESidebarHeaderLogo {
+    background: #0d0d0d;
+    display: flex;
+    font-weight: 400;
+    color: #dedede;
+    width: 60%;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.EditSidebarSelectionSection {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 12px;
+    /* gap: 8px; */
+    justify-content: center;
+}
+
+.EditSidebarSelectionSection button {
+    background: #0d0d0d;
+    padding: 6px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #686868;
+    font-weight: 500;
+    width: 33%;
+    /* border-radius: 4px; */
+    border: none;
+}
+
+.ESidebarCurrentSelection {
+    border-bottom: solid 4px #86c6ff !important;
+}
+
+.EditSidebarWidgetsList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    width: 92%;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding-right: 2px;
+}
+
+.EditSidebarWidgetsList > .element {
+    width: 30%;
+    height: 58px;
+    display: flex;
+    background: #818181;
+    color: #050505;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}

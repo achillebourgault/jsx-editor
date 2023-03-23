@@ -1,0 +1,39 @@
+{
+  "type": "div",
+  "attributes": {
+    "className": "test"
+  },
+  "children": [
+    {
+      "type": "div",
+      "attributes": {
+        "style": {
+          "height": "400px",
+          "width": "100%",
+          "background": "blue"
+        }
+      }
+    },
+    {
+      "type": "div",
+      "attributes": {
+        "style": {
+          "height": "400px",
+          "width": "100%",
+          "background": "magenta"
+        }
+      }
+    },
+    {
+      "type": "a",
+      "attributes": {
+        "style": {
+          "textAlign": "center",
+          "background": "aqua"
+        },
+        "href": "https://google.com"
+      },
+      "text": "Test Link"
+    }
+  ]
+}
