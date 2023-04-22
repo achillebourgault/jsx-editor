@@ -30,7 +30,7 @@ const EditSidebar = props => {
     const [widgetsListSelected, setWidgetsListSelected] = useState(WidgetsListType.Global)
     const context = props.context;
     const currentPage = context.pageName;
-    const pageNeedUpdate = context.pageNeedUpdate;
+    const pageNeedUpdate = context.pageContent !== context.originalPageContent;
 
     function renderWidgetsList() {
         return (
